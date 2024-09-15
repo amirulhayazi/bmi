@@ -1,0 +1,83 @@
+/* Body Style */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container,
+.result-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px;
+}
+
+/* Form Elements */
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+form input[type="text"]::placeholder,
+form input[type="number"]::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+form button {
+    background: #ff8008;
+    background: linear-gradient(to right, #ffc837, #ff8008);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #ff8008, #ffc837);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(255, 128, 8, 0.4);
+}
+
+/* Result Elements */
+.result-container p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-container .back-btn {
+    background: #06beb6;
+    background: linear-gradient(to right, #48b1bf, #06beb6);
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+}
+
+.result-container .back-btn:hover {
+    background: linear-gradient(to right, #06beb6, #48b1bf);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(72, 177, 191, 0.4);
+}
